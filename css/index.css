@@ -1,0 +1,91 @@
+
+@font-face{
+    font-family:"vint";
+    src:url('/fonts/matches.otf');
+}
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    background-image: url("/images/holomain.png");
+    background-repeat:none;
+    background-position:center;
+    height:100%;
+    margin:0;
+    background-size:cover;
+}
+
+#home{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display:grid;
+    place-content:center;
+    overflow:hidden;
+}
+
+
+
+.btn {
+    display: grid;
+    place-items:center;
+    background: rgb(244, 243, 243, .3);
+    text-decoration: none;
+    font-size:2.5vw;
+    width:38vw;
+    height:8vw;
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition:.4s ease-in-out;
+}
+
+.btn:hover{
+    width:20vw;
+    animation: pulse .8s ease-in-out infinite;
+    cursor: pointer;
+}
+
+.btn.title::after,
+.btn.title::before {
+    content: "Hidden Societies";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: "vint",arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top:1.25vh;
+    transition: all .4s;
+    top: 0;
+}
+
+.btn.btn.title:hover::after {
+    top: 100vh;
+}
+
+.btn.title::before {
+    content: "Enter";
+    top: -100vh;
+}
+
+.btn.btn.title:hover::before {
+    top: 0;
+}
+
+@keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(.8); /* Slight increase, adjust as needed */
+    }
+  }
+  
+  
+  
+  

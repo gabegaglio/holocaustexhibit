@@ -1,0 +1,83 @@
+@font-face{
+    font-family:"vint";
+    src:url('/fonts/matches.otf');
+}
+
+*{font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;}
+
+body,html{height:100%; width:100%;}
+
+body{
+    background-image:url("/images/ther.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.container {
+    display: grid;
+    place-items:center;
+    grid-template-columns: 1fr 1fr; /* Split the main area into two columns */
+    grid-template-rows: 1fr auto; /* One row for content, one row for the footer */
+    
+}
+.right{
+    border-radius:2px;
+    grid-row:1; 
+    border-radius:10px;
+    padding: 20px; /* Optional: Adds some padding inside each section */
+   background-color:  rgb(244, 243, 243, .6);
+    margin-right:20px;
+}
+
+
+
+.right h1{margin:0px; font-size:4vw; font-family:arial;}
+
+.right p{font-size:1.3vw;}
+
+.section{font-size:1.5vw;}
+
+.left{
+    
+    grid-row:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    top:0;
+}
+
+.video{
+    margin-bottom:10px;
+    width:80%;
+    height:auto;
+    object-fit: cover;
+}
+
+.name{
+    font-size:2vw;
+    border-bottom:solid 4px;
+    margin:0px;
+  
+}
+
+img{
+    width:25vw;
+    margin:10px;
+    border:solid 3px;
+}
+
+.one img, .three img{float:right;}
+
+.two img{float:left}
+
+.foot{
+    grid-column: 1 / -1;
+    padding:20px;
+    margin:20px;
+    display: flex; /* Change display to flex */
+    justify-content: center; /* Center align items horizontally */
+    gap: 10px; /* Add some space between buttons */   
+}
+

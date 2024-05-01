@@ -1,0 +1,85 @@
+
+@font-face{
+    font-family:"vint";
+    src:url('/fonts/matches.otf');
+}
+
+*{font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;}
+
+body,html{height:100%;width:100%;}
+
+body{
+    background-image:url("/images/arnold.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.container {
+    display: grid;
+    place-items:center;
+    grid-template-columns: 1fr 1fr; /* Split the main area into two columns */
+    grid-template-rows: 1fr auto; /* One row for content, one row for the footer */
+
+}
+
+.right h1{margin:0px; font-size:4vw; font-family:arial;}
+
+.right {
+    border-radius: 2px;
+    grid-row: 1;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(244, 243, 243, .6);
+    margin: 10px;
+}
+
+.left{
+    width:80%;
+    grid-row:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    top:0;
+}
+
+.vidDES{
+    padding:10px;
+    border-radius:10px;
+    font-size:1.3vw;
+    background-color:rgb(244, 243, 243, .6);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section{font-size:1.5vw;}
+
+.right h1 {
+    margin: 0px;
+}
+
+.right p {
+    font-size: 1.3vw;
+}
+
+.name {
+    font-size: 2vw;
+    border-bottom: solid 4px;
+    margin: 0px;
+}
+
+.video{
+    margin-bottom:10px;
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.foot {
+    grid-column: 1 / -1;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

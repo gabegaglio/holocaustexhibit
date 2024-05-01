@@ -1,0 +1,315 @@
+.schobtn {
+    display: grid;
+    place-items:center;
+    background: rgb(244, 243, 243, .3);
+    text-decoration: none;
+    font-size:1.5vw;
+    width:17vw;
+    height:4.5vw;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition:.4s ease-in-out;
+}
+
+.schobtn:hover{
+    width:10vw;
+    animation: pulse .8s ease-in-out infinite;
+    background: rgb(244, 243, 243, .8);
+}
+
+.schobtn.title::after,
+.schobtn.title::before {
+
+    content: "Schoenberg";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: "vint",arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top:.4vh;
+    margin:auto;
+    transition: all .4s;
+    top: 0;
+}
+
+.schobtn.schobtn.title:hover::after {
+    top: 100vw;
+}
+
+.schobtn.title::before {
+    content: "Learn";
+    top: -100vh;
+}
+
+.schobtn.schobtn.title:hover::before {
+    top: 0;
+}
+/*//////////////////////////////////////////*/
+.warbtn {
+    display: grid;
+    place-items: center;
+    background: rgb(244, 243, 243, .3);
+    text-decoration: none;
+    font-size: 1.5vw;
+    width: 17vw;
+    height: 4.5vw;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: .4s ease-in-out;
+}
+
+.warbtn:hover {
+    width: 10vw;
+    animation: pulse .8s ease-in-out infinite;
+    background: rgb(244, 243, 243, .8);
+}
+
+.warbtn.title::after,
+.warbtn.title::before {
+    content: "Warsaw";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: "vint", arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top: .4vh;
+    margin: auto;
+    transition: all .4s;
+    top: 0;
+}
+
+.warbtn.title:hover::after {
+    top: 100vw;
+}
+
+.warbtn.title::before {
+    content: "Learn";
+    top: -100vh;
+}
+
+.warbtn.title:hover::before {
+    top: 0;
+}
+/*//////////////////////////////////////////*/
+.annbtn {
+    display: grid;
+    place-items: center;
+    background: rgb(244, 243, 243, .3);
+    text-decoration: none;
+    font-size: 1.5vw;
+    width: 17vw;
+    height: 4.5vw;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: .4s ease-in-out;
+}
+
+.annbtn:hover {
+    width: 10vw;
+    animation: pulse .8s ease-in-out infinite;
+    background: rgb(244, 243, 243, .8);
+}
+
+.annbtn.title::after,
+.annbtn.title::before {
+    content: "Anne Frank";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: "vint", arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top: .4vh;
+    margin: auto;
+    transition: all .4s;
+    top: 0;
+}
+
+.annbtn.title:hover::after {
+    top: 100vw;
+}
+
+.annbtn.title::before {
+    content: "Learn";
+    top: -100vh;
+}
+
+.annbtn.title:hover::before {
+    top: 0;
+}
+/*//////////////////////////////////////////*/
+.terbtn {
+    display: grid;
+    place-items: center;
+    background: rgb(244, 243, 243, .3);
+    text-decoration: none;
+    font-size: 1.5vw;
+    width: 17vw;
+    height: 4.5vw;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: .4s ease-in-out;
+}
+
+.terbtn:hover {
+    width: 10vw;
+    animation: pulse .8s ease-in-out infinite;
+    background: rgb(244, 243, 243, .8);
+}
+
+.terbtn.title::after,
+.terbtn.title::before {
+    content: "Terezin";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: "vint", arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top: .4vh;
+    margin: auto;
+    transition: all .4s;
+    top: 0;
+}
+
+.terbtn.title:hover::after {
+    top: 100vw;
+}
+
+.terbtn.title::before {
+    content:"Learn";
+    top: -100vh;
+}
+
+.terbtn.title:hover::before {
+    top: 0;
+}
+/*HOVER for description////////////////////////////////////////*/
+.desbtn {
+    display: grid;
+    place-items: center;
+    background: rgb(244, 243, 243, .3);
+    text-decoration: none;
+    font-size: 1.3vw;
+    width: 20vw;
+    height: 4.5vw;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: .4s ease-in-out;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.desbtn:hover {
+    width: 43vw;
+    height:4vw;
+    background: rgb(244, 243, 243, .6);
+    animation:none;
+}
+
+.desbtn.title::after,
+.desbtn.title::before {
+    content: "Gideon Klein Piano Sonata (Theresienstadt Ghetto, 1943)";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif, arial, sans-serif;
+    color:black;
+    margin-top: .1vh;
+    margin: auto;
+    transition: all .4s;
+    top: 10px;
+    
+}
+
+.desbtn.title:hover::after {
+    top: 100vw;
+}
+
+.desbtn.title::before {
+    content:"Gideon Klein (1919-1945) was a Czechoslovakian pianist and composer at the camp and wrote this piece 2 years before his death.";
+    top: -100vh;
+}
+
+.desbtn.title:hover::before {
+    top: 0;
+    
+}
+/***********************************************/
+.desbtn2 {
+    display: grid;
+    place-items: center;
+    background: rgb(244, 243, 243, .6);
+    text-decoration: none;
+    font-size: 1.3vw;
+    width: 20vw;
+    height: 3vw;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: .4s ease-in-out;
+    animation: pulse 2s ease-in-out infinite;
+    margin-top:20px;
+}
+
+.desbtn2:hover {
+    width: 44vw;
+    height:65vh;
+    background: rgb(244, 243, 243, .6);
+    animation:none;
+    text-decoration:none;
+}
+
+.desbtn2.title::after,
+.desbtn2.title::before {
+    content: "Folk Song From The Warsaw Ghetto";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif, arial, sans-serif;
+    color:black;
+    margin-top: .1vh;
+    margin: auto;
+    transition: all .4s;
+    top: 10px;
+    
+}
+
+.desbtn2.title:hover::after {
+    top: 200vw;
+}
+
+.desbtn2.title::before {
+    content: "Conceived in 1943, it describes families being torn apart at the Umschlagplatz, knowing that once transported to Treblinka, they would never return. Sung by Frieda Radasky, a survivor of the Warsaw Ghetto, and camps.\ALyrics\A A storm raged through the land leaving people uprooted, homeless.\AWithout pity or sorrow their world had been destroyed.\AThe Sun was torn from the heavens.\A And from day, night was created.\AOver there, not far, the Umschlagplatz lays waiting.\APeople push and shove against each other, crowded into cattle cars.\AListen a child passionately hysterically calls it’s mother.\A“Do not leave me!” But know you can not protect me. \AThe police, quickly they say “Go, you will not know from hunger!” \AYou will get three loaves of bread. \ABut with those three kilos of bread. \AThey didn’t know they would be ushered unto their death.\A For there in the distance stands Treblinka. \A For every person, a final resting place. \AWhoever goes there, never returns. \AThe heart weeps when one remembers a sister of brother who met their fate in that awful place. \A Now the cattle cars lay waiting for me And only one thing is left to say. \A From Treblinka am I.";
+    top: -600vh;
+    white-space:pre-wrap;
+    text-decoration:none;
+}
+
+.desbtn2.title:hover::before {
+    top: 0;
+    
+}
+
+
+@keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05); /* Slight increase, adjust as needed */
+    }
+  }
+

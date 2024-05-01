@@ -1,0 +1,149 @@
+@font-face{
+    font-family:"vint";
+    src:url('/fonts/matches.otf');
+}
+
+*{font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;}
+
+body,html{height:100%; width:100%;}
+
+body{
+    background-image:url("/images/war2.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.container, .altContainer {
+    display: grid;
+    place-items:center;
+    grid-template-columns: 1fr 1fr; /* Split the main area into two columns */
+    grid-template-rows: 1fr auto; /* One row for content, one row for the footer */
+    margin-top:40px;
+}
+
+.right, .altRight{
+    border-radius:2px;
+    grid-row:1; 
+    border-radius:10px;
+    padding: 20px; 
+   background-color:  rgb(244, 243, 243, .6);
+    margin-right:20px;
+}
+
+
+.left, .altLeft{
+    margin-top:20px;
+    grid-row:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    top:0;
+}
+
+.altLeft{
+    margin-left:20px;
+}
+
+
+li{
+    font-size:1.3vw;
+}
+
+.right h1, .altRight h1{margin:0px; font-size:3.5vw; font-family:arial;}
+
+.right p, .altRight p{font-size:1.3vw;}
+
+.section{font-size:1.5vw;}
+
+.video{
+    margin-bottom:10px;
+    width:80%;
+    height:auto;
+    object-fit: cover;
+}
+
+.audio{
+    margin:auto;
+    width:80%;
+    zoom:80%;
+}
+
+.name{
+    font-size:2vw;
+    border-bottom:solid 4px;
+    margin:0px;
+  
+}
+
+img{
+    width:25vw;
+    margin:10px;
+    border:solid 3px;
+}
+
+.one img, .three img{float:right;}
+
+.two img{float:left}
+
+#ani2{
+    float:none;
+    margin:auto;
+}
+
+.foot{
+    grid-column: 1 / -1;
+    padding:20px;
+    margin:20px;
+    display: flex; /* Change display to flex */
+    justify-content: center; /* Center align items horizontally */
+    gap: 10px; /* Add some space between buttons */   
+}
+
+.vidDES{
+    padding:10px;
+    border-radius:10px;
+    font-size:1.3vw;
+    background-color:rgb(244, 243, 243, .6);
+    text-align: center;
+    width:60%;
+}
+
+.vidDES2{
+    padding:5px;
+    border-radius:10px;
+    background-color:rgb(244, 243, 243, .6);
+    text-align: center;  
+}
+
+.contain {
+    width:100%;
+    margin: auto;
+    
+  }
+
+  .header {
+    width:fit-content;
+    text-align: center;
+    font-size: 1.5vw;
+    border-bottom:3px solid;
+    margin:auto;
+    margin-bottom:10px;
+  }
+  .columns {
+    display: flex;
+    margin-top:10px;
+    margin:auto;
+  }
+  .column {
+    flex: 1;
+  }
+
+
+#col1{font-size:1.2vw;}
+#col2{font-size:1.1vw; 
+    width:fit-content;
+    border-left:3px;
+}
+#eng{font-size:1.2vw;}
