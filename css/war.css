@@ -1,6 +1,6 @@
 @font-face{
     font-family:"vint";
-    src:url('/fonts/matches.otf');
+    src:url('./fonts/matches.otf');
 }
 
 *{font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;}
@@ -8,7 +8,7 @@
 body,html{height:100%; width:100%;}
 
 body{
-    background-image:url("/images/war2.png");
+    background-image:url("./images/war2.png");
     background-repeat:no-repeat;
     background-position:center;
     background-attachment: fixed;
