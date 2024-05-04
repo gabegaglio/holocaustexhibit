@@ -6,7 +6,8 @@
 
 *{font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;}
 
-body,html{height:100%;width:100%;}
+body,html{height:100%;
+    width:100%;}
 
 body{
     background-image:url("/images/arnold.jpg");
